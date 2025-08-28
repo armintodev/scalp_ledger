@@ -1,0 +1,12 @@
+﻿<Solution>
+  <Folder Name="/_configs/">
+    <File Path="nuget.config" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="migration_commands.txt" />
+  </Folder>
+  <Project Path="ScalpLedger.Api\ScalpLedger.Api.csproj" Type="Classic C#" />
+  <Project Path="ScalpLedger.Application\ScalpLedger.Application.csproj" Type="Classic C#" />
+  <Project Path="ScalpLedger.Domain\ScalpLedger.Domain.csproj" Type="Classic C#" />
+  <Project Path="ScalpLedger.Infrastructure\ScalpLedger.Infrastructure.csproj" Type="Classic C#" />
+</Solution>

@@ -1,0 +1,2 @@
+dotnet ef migrations add --project exchange_integration\XI.Infrastructure\XI.Infrastructure.csproj --startup-project exchange_integration\XI.Api\XI.Api.csproj --context ExchangeIntegration.Infrastructure.Persistence.ExchangeContext --configuration Debug Initial --output-dir Persistence/Migrations
+dotnet ef database update --project exchange_integration\XI.Infrastructure\XI.Infrastructure.csproj --startup-project exchange_integration\XI.Api\XI.Api.csproj --context ExchangeIntegration.Infrastructure.Persistence.ExchangeContext --configuration Debug 20250207115839_Initial
